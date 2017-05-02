@@ -50,6 +50,7 @@ namespace TestJenkins.Controllers
         {
             if (ModelState.IsValid)
             {
+                student.FirstName = "Mr. " + student.FirstName; 
                 db.Students.Add(student);
                 db.SaveChanges();
                 return RedirectToAction("Index");
