@@ -52,7 +52,7 @@
             @Html.LabelFor(model => model.dob, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.dob, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.dob, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.dob, "2001-06-24", new { @class = "text-danger" })
             </div>
         </div>
 
