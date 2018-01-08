@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 15.5.2
-# Visual Studio 15
+# Visual Studio 2017
 VisualStudioVersion = 15.5.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJenkins", "TestJenkins\TestJenkins.csproj", "{360480F6-5138-45CB-A8D3-B3B53F69C852}"
